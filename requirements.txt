@@ -1,1 +1,2 @@
-## Please list additional packages with version numbers
+graphviz==0.10.1
+pydotplus==2.0.2
