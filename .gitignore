@@ -1,1 +1,4 @@
 .DS_Store
+.ipython/
+.local/
+notebooks/.ipynb_checkpoints/
