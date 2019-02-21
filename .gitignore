@@ -2,3 +2,5 @@
 .ipython/
 .local/
 notebooks/.ipynb_checkpoints/
+.cache/
+solutions/.ipynb_checkpoints/
