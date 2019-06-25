@@ -19,7 +19,8 @@ COPY solutions /home/jovyan/solutions
 # Allow user to write to directory
 USER root
 RUN chown -R $NB_USER /home/jovyan \
-    && chmod -R 774 /home/jovyan
+    && chmod -R 774 /home/jovyan \
+    && rm -fR /home/jovyan/work
 USER $NB_USER
 
 # Expose the notebook port
