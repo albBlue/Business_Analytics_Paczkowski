@@ -13,8 +13,8 @@ RUN pip install -r /home/jovyan/requirements.txt
 
 # Add files
 COPY notebooks /home/jovyan/notebooks
-COPY data /home/jovyan/data
-COPY slides /home/jovyan/slides
+COPY data /home/jovyan/Data
+COPY slides /home/jovyan/Slides
 COPY postBuild /home/jovyan/postBuild
 
 # Allow user to write to directory
