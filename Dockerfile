@@ -12,7 +12,7 @@ COPY requirements.txt /home/jovyan/requirements.txt
 RUN pip install -r /home/jovyan/requirements.txt
 
 # Add files
-COPY notebooks /home/jovyan/notebooks
+COPY notebook /home/jovyan/notebook
 COPY Data /home/jovyan/Data
 COPY Slides /home/jovyan/Slides
 COPY postBuild /home/jovyan/postBuild
